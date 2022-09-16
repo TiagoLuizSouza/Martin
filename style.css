@@ -1,0 +1,35 @@
+body {
+  background-color: rgb(240, 76, 76);
+  color: rgb(244, 248, 248);
+  padding: 30px;
+  font-size: 19px;
+  height: 100%;
+  font-family: 'Roboto Mono', monospace;
+}
+.martin {
+  width: 700px;
+  border: solid rgb(83, 2, 23);
+  border-radius: 7px;
+  margin-inline: auto;
+  margin-bottom: 40px;
+  margin-top: 40px;
+}
+p {
+  border: solid 2px;
+  border-radius: 3%;
+  padding: 20px;
+  text-align: justify;
+  width: 900px;
+}
+.cabecalho {
+  display: flex;
+  flex-direction: unset;
+  justify-content: space-around;
+}
+
+.justp {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
